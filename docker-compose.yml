@@ -1,7 +1,7 @@
 services:
   krvimports:
     build: .
-environment:
+    environment:
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
       - EVOLUTION_API_URL=${EVOLUTION_API_URL}
       - EVOLUTION_API_KEY=${EVOLUTION_API_KEY}
