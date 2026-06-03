@@ -1,9 +1,7 @@
 services:
   krvimports:
     build: .
-    ports:
-      - "8000:8000"
-    environment:
+environment:
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
       - EVOLUTION_API_URL=${EVOLUTION_API_URL}
       - EVOLUTION_API_KEY=${EVOLUTION_API_KEY}
