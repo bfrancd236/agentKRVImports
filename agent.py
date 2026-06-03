@@ -9,7 +9,7 @@ from memory import get_history, add_message
 load_dotenv()
 
 llm = ChatAnthropic(
-    model="claude-sonnet-4-20250514",
+    model="claude-haiku-4-5-20251001",
     anthropic_api_key=os.getenv("ANTHROPIC_API_KEY"),
     temperature=0.7,
     max_tokens=1024,
